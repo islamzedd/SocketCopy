@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=files
+comment0.target=Sender(java.util.ArrayList)
+comment0.text=\r\n\ Constructor\ takes\ the\ file\ or\ directory\ name\ to\ be\ sent\r\n\ \r\n\ @param\ the\ file\ or\ directory\ name\ to\ be\ sent\r\n
+comment1.params=
+comment1.target=void\ setupConnection()
+comment1.text=\r\n\ setup\ socket\ and\ output\ stream\r\n\ \r\n
+comment2.params=
+comment2.target=void\ send()
+comment2.text=\r\n\ the\ sending\ method\ that\ will\ swnd\ the\ files\r\n\ \r\n
+comment3.params=file\ path
+comment3.target=void\ sendFile(java.io.File,\ java.lang.String)
+comment3.text=\r\n\ a\ helper\ method\ to\ send\ individual\ files\ used\ by\ send()\ and\ sendDirectory()\r\n\ \r\n\ @param\ file\ a\ file\ object\ representing\ an\ individual\ file\r\n
+comment4.params=file
+comment4.target=void\ sendDirectory(java.io.File)
+comment4.text=\r\n\ a\ helper\ recursive\ method\ to\ send\ directories\ used\ by\ send()\r\n\ \r\n\ @param\ a\ file\ object\ representing\ the\ directory\ to\ be\ sent\r\n
+comment5.params=
+comment5.target=void\ sendED()
+comment5.text=\r\n\ a\ helper\ method\ sends\ an\ empty\ directory\ used\ by\ sendDirectory()\r\n\ \r\n
+comment6.params=
+comment6.target=void\ finalize()
+comment6.text=\r\n\ a\ method\ to\ close\ connection\r\n\ \r\n
+numComments=7

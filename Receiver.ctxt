@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=host
+comment0.target=Receiver(java.lang.String)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Receiver\r\n\ \r\n\ @param\ String\ host\ representing\ the\ host\ to\ connect\ to\r\n
+comment1.params=
+comment1.target=void\ setupConnection()
+comment1.text=\r\n\ setup\ socket\ and\ output\ stream\r\n\ \r\n
+comment2.params=
+comment2.target=void\ receive()
+comment3.params=length1
+comment3.target=void\ readFile(int)
+comment4.params=
+comment4.target=void\ finalize()
+numComments=5
